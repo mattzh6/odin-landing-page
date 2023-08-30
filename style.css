@@ -70,3 +70,38 @@ a {
 .placeholder {
     width: 400px;
 }
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 36px;
+}
+
+.illustration {
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 8px;
+}
+
+.container {
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-subtext {
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
