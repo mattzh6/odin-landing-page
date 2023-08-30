@@ -12,8 +12,8 @@
 
 .header-logo {
     font-size: 24px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     color: #F9FAF8;
 }
 
@@ -23,13 +23,50 @@
     gap: 16px;
     padding: 0;
     margin: 0;
-    justify-content: center;
-    align-items: center;
 }
 
-a {
-    text-decoration: none;
+a, .subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
 
+a {
+    text-decoration: none;
+}
+
+.content {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 300px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    justify-content: flex-start;
+    
+}
+
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    color: #F9FAF8;
+    max-width: 100px;
+    border-radius: 8px;
+    border: none;
+}
+
+.placeholder {
+    width: 400px;
+}
