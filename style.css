@@ -105,3 +105,25 @@ a {
     width: 150px;
     text-align: center;
 }
+
+.quote-content {
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 128px;
+    margin-top: 36px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quoted-author {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: end;
+}
