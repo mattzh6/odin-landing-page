@@ -12,8 +12,6 @@
 
 .header-logo {
     font-size: 24px;
-    /* justify-content: center;
-    align-items: center; */
     color: #F9FAF8;
 }
 
@@ -57,14 +55,19 @@ a {
     
 }
 
-.sign-up {
+.action, .sign-up {
     background-color: #3882F6;
+}
+
+.sign-up {
     display: flex;
     justify-content: center;
     color: #F9FAF8;
     max-width: 100px;
-    border-radius: 8px;
+    border-radius: 4px;
     border: none;
+    padding: 8px;
+    font-weight: bold;
 }
 
 .placeholder {
@@ -111,6 +114,7 @@ a {
     flex-direction: column;
     padding: 128px;
     margin-top: 36px;
+
 }
 
 .quote {
@@ -126,4 +130,33 @@ a {
     font-weight: bold;
     font-size: 24px;
     text-align: end;
+}
+
+.action {
+    display: flex;
+    padding: 24px 10px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+.action .sign-up {
+    border: 2px solid white;
+    width: 200px;
+}
+
+.action-container {
+    padding: 64px;
+}
+
+.action-text {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sign-up-text {
+    color: #E5E7EB;
+    font-weight: 500;
 }
